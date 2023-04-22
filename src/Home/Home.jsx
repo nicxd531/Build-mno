@@ -1,8 +1,9 @@
 import'../styles/home.css'
+import HomeSection1 from './HomeSection1';
 const Home = () => {
     return ( 
-        <main className="Home bg-secondary">
-                home
+        <main className="Home ">
+                <HomeSection1/>
         </main>
      );
 }

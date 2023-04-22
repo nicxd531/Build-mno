@@ -25,7 +25,30 @@ $secondary:#A4AF39;
 .aboutUs{
     margin-top: 40px;
 }
-
+.navbar{
+    background-color: white;
+    z-index: 1;
+    >div:first-child{
+        >a:first-child{
+            img{
+                width: 140px;
+                height: 10px;
+            }
+        }
+        >div:nth-child(3){
+            margin-top: 20px;
+            >ul{
+                >li{
+                    border-bottom: 1px solid   whitesmoke;
+                    >a{
+                        color: #000000;
+                    }
+                }
+                
+            }
+        }
+    }
+}
 
 @media (min-width: 992px) {
     /* CSS styles for large screens go here */
@@ -34,5 +57,69 @@ $secondary:#A4AF39;
     .contactUs,
     .aboutUs{
         margin-top: 164px;
+    }
+    .navbar{
+
+        >div:first-child{
+            margin: 0 5%;
+            margin-top: 31px;
+            >a:first-child{
+                img{
+                width: 202px;
+                height: 38px;
+               }
+            }
+            >div:nth-child(3){
+                >ul{
+                   margin-left: 25%;
+                    button{
+                        width: 93px;
+                        height: 41px;
+                        font-size: 16px;
+                        border-radius: 10px;
+                        a{
+                            width: 100%;
+                        }
+                    }
+                    >li{
+                        border-bottom: none;
+                        >a{
+                            font-size: 16px;
+                            position: relative;
+                        }
+                        .strokes::after{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            width: 0%;
+                            content: '';
+                            color: transparent;
+                            background: #3C0C61;
+                            height: 2px;
+                        }
+                        .strokes:hover::after,
+                        .strokes:active::after{
+                            width: 100%;
+                            transition: all 0.3s ease-in;
+                        }
+                        /* Keyframes */
+                        @keyframes strokes {
+                            0% {
+                            width: 0%;
+                            }
+                            50% {
+                            width: 100%;
+                            }
+                            100% {
+                            width: 100%;
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
   }
