@@ -4,6 +4,7 @@ import { HomeSection6 } from './HomeSection6';
 import { HomeSection7 } from './HomeSection7';
 import { useTheme } from '@emotion/react';
 import { HomeSection8 } from './HomeSection8';
+import HomeSection1 from './HomeSection1';
 const Home = () => {
     const theme =useTheme()
 
@@ -16,6 +17,7 @@ const Home = () => {
                 </Box>
                 
 
+                <HomeSection1/>
         </main>
      );
 }
