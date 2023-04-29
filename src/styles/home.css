@@ -1,4 +1,56 @@
 .Home {
-  margin-top: 100px;
+    margin-top: 100px;
 }
+
+
 /*# sourceMappingURL=home.css.map */
+
+.section6_h {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #3C0C61;
+}
+
+.section6_p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 294px;
+    /* color: #3C0C61; */
+    text-align: justify;
+    /* font-family: la; */
+}
+
+.section6_button {
+    background-color: #3C0C61;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 12.16px;
+    width: 170px;
+}
+
+.avatar {
+    /* object-fit: contain; */
+    width: 67px;
+    height: 67px;
+    border-radius: 8px;
+}
+
+.illustrated_img {
+    width: 100%;
+}
+
+footer {
+    background-color: #3C0C61;
+}
+
+.footer_ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_ul li {
+    list-style-type: none;
+}
