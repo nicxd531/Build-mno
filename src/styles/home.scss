@@ -3,22 +3,159 @@
 // ================================HOME============================
 .Home{
   margin-top: 100px;
+
+  // ================================Home-Section 1============================
+  .HomeSection1{
+    >div{
+      >div:first-child{
+        >h2:first-child{
+          font-weight: 900;
+        }
+        >h5{
+          margin-top: 25px;
+        }
+        >button{
+          margin-top: 20px
+        }
+      }
+    }
+  }
   
 
-// ================================Home-Section 1============================
-
-
 // ================================Home-Section 2============================
-
+.homeSection2{
+  margin-top: 20px;
+  padding-top: 10px;
+  position: relative;
+  >div:first-child{
+    >div{
+        >div{
+          >div:first-child{
+            width: 3px;
+            height: 100px;
+            >div{
+              width: 4px;
+              height: 80%;
+              margin-top:10%;
+              border-radius: 20px;
+            }
+          }
+          >div:last-child{
+            >div{
+              >div{
+                background-color: #3C0C61;
+                height: 80%;
+                width: fit-content;
+                padding: 5px;
+                border-radius: 5px;
+              }
+              >h4{
+                font-size: 16px;
+              }
+            }
+          }
+        }
+   }
+   >div:nth-child(2){
+    margin-bottom: 20px;
+    >div{
+      position: relative;
+      >div:first-child{
+        position: absolute;
+        right: 0;
+        transition: ease-in 0.3s ;
+      }
+     
+      >div:last-child{
+        >div{
+          >div{
+            background-color: transparent !important;
+            img{
+              width: 34px;
+            }
+          }
+        }
+      }
+    }
+   }
+  } 
+  >div:last-child{
+    position: absolute;
+    right: 20px;
+    height: fit-content;
+    bottom: -60px;
+  }
+}
 
 // ================================Home-Section 3============================
-
+.homeSection3{
+  margin-top: 60px;
+  >div{
+    >div:last-child{
+      margin-top: 20px;
+      >h2{
+        font-size: 20px;
+        margin-bottom: 10PX;
+      }
+      >p{
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      button{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
 
 // ================================Home-Section 4============================
-
+.homeSection4{
+  margin-top: 20px;
+  >div{
+    >h2{
+      font-size: 22px;
+      font-weight: 500;
+    };
+    >p{
+      margin-top: 10px;
+    }
+    button{
+      margin-top: 10px;
+    }
+  }
+}
 
 // ================================Home-Section 5============================
+.homeSection5{
+  margin-top: 50px;
+  >div{
+    .hSec5Card {
+      width: 43%;
+      margin-left: 5%;
+      margin-bottom: 10px;
+      padding: 3px;
+      background-color:#FFFFFF ;
+      offset: 2.81px, 2.81px
+      rgba(0, 0, 0, 0.15);
+      border-radius: 11.25px;
+      -webkit-box-shadow: 7px -5px 10px -4px rgba(0,0,0,0.27);
+      -moz-box-shadow: 7px -5px 10px -4px rgba(0,0,0,0.27);
+      box-shadow: 7px -5px 10px -4px rgba(0,0,0,0.27);
+      >div{
+        overflow: hidden;
+      }
+      >h4{
+        font-weight: 900;
+        margin-top: 15px;
+      }
+      >p{
+        font-size: 11px;
+        text-align: justify;
+      }
+    }
+  }
 
+}
 
 // ================================Home-Section 6============================
 
@@ -39,3 +176,122 @@
 
 
 // ================================ break points============================
+@media (min-width: 992px) {
+  .Home{
+  // ================================Home-Section 1============================
+          .HomeSection1{
+            margin-top: 137px;
+            >div{
+              >div:first-child{
+                >h2{
+                  font-size: 40px;
+                  >span{
+                    font-size: 30px;
+                  }
+                }
+                >h5{
+                  font-size: 22px;
+                  margin-top: 64px;
+                }
+                >h6{
+                  margin-top: 10px;
+                }
+                >.homeBtn{
+                  margin-top: 64px;
+                }
+                >ul{
+                  margin-top: 30px;
+                  li{
+                    margin-left: 15px;
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+          }
+// ================================Home-Section 2============================
+      .homeSection2{
+        margin-top: 70px;
+        >div:first-child{
+          background-color: rgba(217, 217, 217, 0.5);
+          >div:nth-child(2){
+            margin-bottom: 0;
+            >div{
+              >div:first-child{
+                  position: relative;
+              }
+            }
+          }
+        }
+      }
+
+// ================================Home-Section 3============================
+.homeSection3{
+  margin-top: 78px;
+  >div:first-child{
+    >div:last-child{
+      padding-left: 220px;
+      >h2{
+        font-size: 52px;
+        font-weight: 700;
+      }
+      p:nth-child(2){
+        font-size: 18px;
+      }
+      button{
+        width: 163px;
+        height: 49px;
+        font-size: 21px;
+        margin-top: 20px;
+      }
+      >p:last-child{
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// ================================Home-Section 4============================
+.homeSection4{
+  margin-top: 77px;
+  >div{
+    >h2{
+      font-size: 52px;
+      font-weight: 700;
+    }
+    >p{
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: justify;
+    }
+    button{
+      font-size: 20px;
+    }
+  }
+}
+
+// ================================Home-Section 5============================
+.homeSection5{
+  margin-top: 81px;
+  >div{
+    .hSec5Card{
+      width: 19%;
+      margin-left: 10px;
+    }
+  }
+}
+
+// ================================Home-Section 6============================
+
+
+// ================================Home-Section 7============================
+
+
+// ================================Home-Section 8============================
+
+
+// ================================Home-Section 9============================
+
+// ================================Home-Section 10============================
+  }
+}

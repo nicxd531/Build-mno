@@ -1,3 +1,255 @@
 .Home {
-  margin-top: 100px;
+    margin-top: 100px;
+}
+
+
+/*# sourceMappingURL=home.css.map */
+
+.section6_h {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #3C0C61;
+}
+
+.section6_p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 294px;
+    /* color: #3C0C61; */
+    text-align: justify;
+    /* font-family: la; */
+}
+
+.section6_button {
+    background-color: #3C0C61;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 12.16px;
+    width: 170px;
+}
+
+.avatar {
+    /* object-fit: contain; */
+    width: 67px;
+    height: 67px;
+    border-radius: 8px;
+}
+
+.illustrated_img {
+    width: 100%;
+}
+
+footer {
+    background-color: #3C0C61;
+}
+
+.footer_ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_ul li {
+    list-style-type: none;
+}
+ 
+.Home .HomeSection1 > div > div:first-child > h2:first-child {
+  font-weight: 900;
+}
+.Home .HomeSection1 > div > div:first-child > h5 {
+  margin-top: 25px;
+}
+.Home .HomeSection1 > div > div:first-child > button {
+  margin-top: 20px;
+}
+.Home .homeSection2 {
+  margin-top: 20px;
+  padding-top: 10px;
+  position: relative;
+}
+.Home .homeSection2 > div:first-child > div > div > div:first-child {
+  width: 3px;
+  height: 100px;
+}
+.Home .homeSection2 > div:first-child > div > div > div:first-child > div {
+  width: 4px;
+  height: 80%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+.Home .homeSection2 > div:first-child > div > div > div:last-child > div > div {
+  background-color: #3C0C61;
+  height: 80%;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Home .homeSection2 > div:first-child > div > div > div:last-child > div > h4 {
+  font-size: 16px;
+}
+.Home .homeSection2 > div:first-child > div:nth-child(2) {
+  margin-bottom: 20px;
+}
+.Home .homeSection2 > div:first-child > div:nth-child(2) > div {
+  position: relative;
+}
+.Home .homeSection2 > div:first-child > div:nth-child(2) > div > div:first-child {
+  position: absolute;
+  right: 0;
+  transition: ease-in 0.3s;
+}
+.Home .homeSection2 > div:first-child > div:nth-child(2) > div > div:last-child > div > div {
+  background-color: transparent !important;
+}
+.Home .homeSection2 > div:first-child > div:nth-child(2) > div > div:last-child > div > div img {
+  width: 34px;
+}
+.Home .homeSection2 > div:last-child {
+  position: absolute;
+  right: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  bottom: -60px;
+}
+.Home .homeSection3 {
+  margin-top: 60px;
+}
+.Home .homeSection3 > div > div:last-child {
+  margin-top: 20px;
+}
+.Home .homeSection3 > div > div:last-child > h2 {
+  font-size: 20px;
+  margin-bottom: 10PX;
+}
+.Home .homeSection3 > div > div:last-child > p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.Home .homeSection3 > div > div:last-child button {
+  margin-bottom: 10px;
+}
+.Home .homeSection4 {
+  margin-top: 20px;
+}
+.Home .homeSection4 > div > h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.Home .homeSection4 > div > p {
+  margin-top: 10px;
+}
+.Home .homeSection4 > div button {
+  margin-top: 10px;
+}
+.Home .homeSection5 {
+  margin-top: 50px;
+}
+.Home .homeSection5 > div .hSec5Card {
+  width: 43%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  padding: 3px;
+  background-color: #FFFFFF;
+  offset: 2.81px, 2.81px rgba(0, 0, 0, 0.15);
+  border-radius: 11.25px;
+  box-shadow: 7px -5px 10px -4px rgba(0, 0, 0, 0.27);
+}
+.Home .homeSection5 > div .hSec5Card > div {
+  overflow: hidden;
+}
+.Home .homeSection5 > div .hSec5Card > h4 {
+  font-weight: 900;
+  margin-top: 15px;
+}
+.Home .homeSection5 > div .hSec5Card > p {
+  font-size: 11px;
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  .Home .HomeSection1 {
+    margin-top: 137px;
+  }
+  .Home .HomeSection1 > div > div:first-child > h2 {
+    font-size: 40px;
+  }
+  .Home .HomeSection1 > div > div:first-child > h2 > span {
+    font-size: 30px;
+  }
+  .Home .HomeSection1 > div > div:first-child > h5 {
+    font-size: 22px;
+    margin-top: 64px;
+  }
+  .Home .HomeSection1 > div > div:first-child > h6 {
+    margin-top: 10px;
+  }
+  .Home .HomeSection1 > div > div:first-child > .homeBtn {
+    margin-top: 64px;
+  }
+  .Home .HomeSection1 > div > div:first-child > ul {
+    margin-top: 30px;
+  }
+  .Home .HomeSection1 > div > div:first-child > ul li {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .Home .homeSection2 {
+    margin-top: 70px;
+  }
+  .Home .homeSection2 > div:first-child {
+    background-color: rgba(217, 217, 217, 0.5);
+  }
+  .Home .homeSection2 > div:first-child > div:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .Home .homeSection2 > div:first-child > div:nth-child(2) > div > div:first-child {
+    position: relative;
+  }
+  .Home .homeSection3 {
+    margin-top: 78px;
+  }
+  .Home .homeSection3 > div:first-child > div:last-child {
+    padding-left: 220px;
+  }
+  .Home .homeSection3 > div:first-child > div:last-child > h2 {
+    font-size: 52px;
+    font-weight: 700;
+  }
+  .Home .homeSection3 > div:first-child > div:last-child p:nth-child(2) {
+    font-size: 18px;
+  }
+  .Home .homeSection3 > div:first-child > div:last-child button {
+    width: 163px;
+    height: 49px;
+    font-size: 21px;
+    margin-top: 20px;
+  }
+  .Home .homeSection3 > div:first-child > div:last-child > p:last-child {
+    margin-top: 10px;
+  }
+  .Home .homeSection4 {
+    margin-top: 77px;
+  }
+  .Home .homeSection4 > div > h2 {
+    font-size: 52px;
+    font-weight: 700;
+  }
+  .Home .homeSection4 > div > p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .Home .homeSection4 > div button {
+    font-size: 20px;
+  }
+  .Home .homeSection5 {
+    margin-top: 81px;
+  }
+  .Home .homeSection5 > div .hSec5Card {
+    width: 19%;
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=home.css.map */
