@@ -1,4 +1,9 @@
+import { Box } from '@mui/material';
 import'../styles/home.css'
+import { HomeSection6 } from './HomeSection6';
+import { HomeSection7 } from './HomeSection7';
+import { useTheme } from '@emotion/react';
+import { HomeSection8 } from './HomeSection8';
 import HomeSection1 from './HomeSection1';
 import HomeSection2 from './HomeSection2';
 import HomeSection3 from './HomeSection3';
@@ -21,6 +26,14 @@ const Home = () => {
                 <HomeSection7/>
                 <HomeSection8/>
             </Box>
+                <HomeSection6/>
+                <Box sx={{bgcolor:theme.palette.main}}>
+                    <HomeSection7/>
+                    <HomeSection8/>
+                </Box>
+                
+
+                <HomeSection1/>
         </main>
      );
 }
