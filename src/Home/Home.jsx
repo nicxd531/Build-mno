@@ -26,14 +26,6 @@ const Home = () => {
                 <HomeSection7/>
                 <HomeSection8/>
             </Box>
-                <HomeSection6/>
-                <Box sx={{bgcolor:theme.palette.main}}>
-                    <HomeSection7/>
-                    <HomeSection8/>
-                </Box>
-                
-
-                <HomeSection1/>
         </main>
      );
 }
